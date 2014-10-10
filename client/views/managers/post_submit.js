@@ -71,11 +71,13 @@ Template.postSubmit.events({
     gifshot.createGIF({
       cameraStream: cameraStream,
       keepCameraOn: true,
+      //interval: 0.5,
+      //numFrames: 12,
       text: '#MeteorDay'
     }, function(obj) {
       if (!obj.error) {
         var image = obj.image;
-        //  animatedImage = document.createElement('img');
+        // animatedImage = document.createElement('img');
         // animatedImage.src = image;
         // document.body.appendChild(animatedImage);
         createdgif = image;
