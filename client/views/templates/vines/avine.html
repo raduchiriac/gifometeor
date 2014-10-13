@@ -1,5 +1,11 @@
-<template name="avine">
-	<div class="">
-		<img src="{{thumbnailUrl}}" />
-	</div>
+<template name="aVine">
+	<li class="table-view-cell media avine" data-id="{{postId}}">
+    <a class="navigate-right">
+      <img class="media-object pull-left" src="{{thumbnailUrl}}">
+      <div class="media-body">
+        <h4>{{username}}</h4>
+        <p>{{description}}</p>
+      </div>
+    </a>
+  </li>
 </template>

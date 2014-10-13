@@ -1,4 +1,4 @@
-Template.popularvines.helpers({
+Template.popularVines.helpers({
   vines: function() {
     return Session.get('vinesArray');
   }
