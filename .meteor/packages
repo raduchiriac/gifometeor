@@ -6,6 +6,10 @@
 meteor-platform
 sacha:spin
 less
-axw:ratchet
 http
+iron:router
+mquandalle:jade
+meteorhacks:npm
+npm-container
+cfs:standard-packages
 

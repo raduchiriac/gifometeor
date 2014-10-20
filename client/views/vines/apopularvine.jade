@@ -1,0 +1,7 @@
+template(name='aPopularVine')
+  li.table-view-cell.media.apopularvine(data-id='{{join postId.c}}')
+    a.navigate-right(href='vine/{{join postId.c}}', data-transition='slide-in')
+      img.media-object.pull-left(src='#{thumbnailUrl}')
+      .media-body
+        h4.username #{username}
+        p #{description}
