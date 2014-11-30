@@ -1,8 +1,8 @@
 template(name="aMime")
   li.table-view-cell.media
-    a.navigate-right
+    a.navigate-right(href="mime/#{_id}")
       img.media-object.pull-left(src="http://placehold.it/42x42")
       .media-body
-        | {{name}}
+        | #{name}
         p
           #{description}

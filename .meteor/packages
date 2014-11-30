@@ -10,5 +10,4 @@ http
 iron:router
 mquandalle:jade
 meteorhacks:npm
-cfs:standard-packages
 npm-container
